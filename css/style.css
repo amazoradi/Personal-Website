@@ -241,7 +241,7 @@ header .intro-text .intro-heading {
     font-size: 15px;
     font-weight: 300;
     line-height: 25px;
-    margin: 20px 100px 60px 100px;
+    margin: 20px 8% 60px 8%;
 }
 
 /*--------------------
@@ -999,7 +999,10 @@ animation: blink 0.7s infinite;
   animation-iteration-count: infinite;
 } */
 
-
+.container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 	.container .col-md-6 {
 		margin-bottom: 30px;
   }
@@ -1023,4 +1026,106 @@ animation: blink 0.7s infinite;
 
 .connectIcons i {
   padding: 10px;
+}
+
+
+
+
+.isotope, .isotope .isotope-item {
+	/* change duration value to whatever you like */
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-ms-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+}
+.isotope {
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	-ms-transition-property: height, width;
+	-o-transition-property: height, width;
+	transition-property: height, width;
+}
+.isotope .isotope-item {
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform, opacity;
+	-ms-transition-property: -ms-transform, opacity;
+	-o-transition-property: -o-transform, opacity;
+	transition-property: transform, opacity;
+}
+
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+	-webkit-transition-duration: 0s;
+	-moz-transition-duration: 0s;
+	-ms-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s;
+}
+
+
+
+#filters {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+#filters li {
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+#filters a {
+	background: none;
+	outline: none;
+	margin: 0 20px 0 20px;
+	color: #888;
+	text-decoration: none;
+	color: #888;
+}
+.text-light #filters a {
+	color: rgba(255, 255, 255, .5);
+}
+#filters a:hover {
+	color: #111;
+}
+#filters a.selected {
+	color: #000;
+}
+.text-light #filters a:hover {
+	color: #fff;
+}
+.text-light #filters a.selected {
+	color: #fff;
+}
+.text-light #filters a.selected {
+	color: #fff;
+}
+.isotope-item {
+	z-index: 2;
+}
+.isotope-hidden.isotope-item {
+	pointer-events: none;
+	z-index: 1;
+}
+
+
+
+/* .counter-holder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.counter-holder>div {
+  width: 25%;
+} */
+
+.finalContact {
+  margin-top: 15px;
+}
+
+
+.team-top {
+  padding-top: 10px;
 }
