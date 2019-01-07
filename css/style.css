@@ -1123,9 +1123,22 @@ animation: blink 0.7s infinite;
 
 .finalContact {
   margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 
 .team-top {
   padding-top: 10px;
+}
+
+.centerThis {
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  margin: 10px 0px;
+}
+.marginTop {
+  margin-top: 15px;
 }
