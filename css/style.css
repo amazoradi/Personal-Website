@@ -63,7 +63,7 @@ p {
 }
 
 a:hover, a:focus, a:active, a.active {
-    color: #fec503;
+    color: #029ce3;
 }
 a, a:hover, a:focus, a:active, a.active {
     outline: 0;
@@ -71,7 +71,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #0279e3;
 }
 
 @media (min-width: 768px) {
@@ -98,20 +98,20 @@ section {
     padding: 0px;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
-	color: #fec503
+	color: #0279e3
 }
 .navbar-default .navbar-collapse {
 	border-color: rgba(255,255,255,.02)
 }
 .navbar-default .navbar-toggle {
-	background-color: #fed136;
-	border-color: #fed136
+	background-color: #0279e3;
+	border-color: #0279e3
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: #fed136
+	background-color: #0279e3
 }
 .navbar-default .nav li a {
 	font-family: "Roboto",sans-serif;
@@ -121,18 +121,18 @@ section {
 	color:#fff
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-	color: #fed136;
+	color: #0279e3;
 	outline: 0
 }
 
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: #fed136
+	background-color: #0279e3
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
-	background-color: #fec503
+	background-color: #0279e3
 }
 
 @media (min-width:768px) {
@@ -661,7 +661,7 @@ font-size: 11px;
 }
 
 .modal-works span {
-	background-color: #FED136;
+	background-color: #0279e3;
     margin-right: 15px;
     padding: 5px 10px;
 }
@@ -672,14 +672,14 @@ font-size: 11px;
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01;
+    background-color: #0279e3;
+    border-color: #0279e3;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01;
+    background-color: #0279e3;
+    border-color: #0279e3;
 }
 
 .btn {
@@ -740,7 +740,7 @@ font-size: 11px;
     transition: 1s;
 }
 #back-top a:hover {
-    background: #fed136;
+    background: #0279e3;
 }
 /* arrow icon (span tag) */
 #back-top i {
@@ -770,7 +770,7 @@ and (max-width : 480px) {
 .headshot {
   width: 40%;
   border: 1px solid white;
-  /* border-radius: 50%; */
+  border-radius: 70%;
 }
 
 .white {
@@ -927,16 +927,6 @@ and (max-width : 480px) {
 
 }
 
-/* .aboutMe .aboutMeText {
-  height: 300px; 
-  overflow: hidden;
-  text-overflow: ellipsis;
-
-}
-.aboutMe .aboutMeText:hover {
-  overflow: visible; 
-}*/
-
 .exp-box{
 	border-bottom:solid 1px rgba(255,255,255,.1);
 	margin-bottom:30px;
@@ -1023,6 +1013,8 @@ animation: blink 0.7s infinite;
 .socialIcons a {
   padding: 10px;
 }
+
+.socialIcons i {}
 
 .connectIcons i {
   padding: 10px;
@@ -1142,3 +1134,7 @@ animation: blink 0.7s infinite;
 .marginTop {
   margin-top: 15px;
 }
+
+/* .aboutMeHeadshot {
+  margin-top: 25%;
+} */
