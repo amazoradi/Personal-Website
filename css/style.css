@@ -976,18 +976,6 @@ animation: blink 0.7s infinite;
 	position: absolute;
 }
 
-/* .de_count{
-	-o-transition: .5s;
-	-ms-transition: .5s;
-	-moz-transition: .5s;
-	-webkit-transition: .5s;
-	transition: .5s;
-	outline: none;
-}
-.animated.infinite {
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-} */
 
 .container {
 		padding-left: 30px;
@@ -1055,7 +1043,6 @@ animation: blink 0.7s infinite;
 }
 
 
-
 #filters {
 	padding: 0;
 	margin: 0;
@@ -1101,22 +1088,10 @@ animation: blink 0.7s infinite;
 	z-index: 1;
 }
 
-
-
-/* .counter-holder {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.counter-holder>div {
-  width: 25%;
-} */
-
 .finalContact {
   margin-top: 15px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -1127,7 +1102,6 @@ animation: blink 0.7s infinite;
 
 .centerThis {
   display: flex;
-  /* text-align: center; */
   justify-content: center;
   margin: 10px 0px;
 }
@@ -1135,6 +1109,12 @@ animation: blink 0.7s infinite;
   margin-top: 15px;
 }
 
-/* .aboutMeHeadshot {
-  margin-top: 25%;
-} */
+.contactAustin {
+  justify-items: center;
+}
+
+.exp-date span{
+  border: 2px solid #0279e3;
+  border-radius: 10%;
+  padding: 4px;
+}
