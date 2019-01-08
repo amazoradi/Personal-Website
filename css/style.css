@@ -71,7 +71,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 ::selection {
     text-shadow: none;
-    background: #0279e3;
+    background: var(--main--color);
 }
 
 @media (min-width: 768px) {
@@ -98,41 +98,43 @@ section {
     padding: 0px;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
-	color: #0279e3
+	color: var(--main--color)
 }
 .navbar-default .navbar-collapse {
 	border-color: rgba(255,255,255,.02)
 }
 .navbar-default .navbar-toggle {
-	background-color: #0279e3;
-	border-color: #0279e3
+	background-color: var(--main--color);
+	border-color: var(--main--color)
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: #0279e3
+	background-color: var(--main--color)
 }
 .navbar-default .nav li a {
 	font-family: "Roboto",sans-serif;
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 1px;
-	color:#fff
+  color:#fff;
+  text-shadow: black;
+  /* background-color: #3E3E3E; */
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-	color: #0279e3;
+	color: var(--main--color);
 	outline: 0
 }
 
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: #0279e3
+	background-color: var(--main--color)
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
-	background-color: #0279e3
+	background-color: var(--main--color)
 }
 
 @media (min-width:768px) {
@@ -465,7 +467,7 @@ figure.effect-bubba:hover p {
 }
 
 .bg-img1 {
-    background-image: url(../images/barcelonaBackground.jpg);
+    background-image: url(../images/azBackground.jpg);
     background-size: cover !important;
     background-position: center center;
     background-repeat: no-repeat;
@@ -661,7 +663,7 @@ font-size: 11px;
 }
 
 .modal-works span {
-	background-color: #0279e3;
+	background-color: var(--main--color);
     margin-right: 15px;
     padding: 5px 10px;
 }
@@ -672,14 +674,14 @@ font-size: 11px;
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #0279e3;
-    border-color: #0279e3;
+    background-color: var(--main--color);
+    border-color: var(--main--color);
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
-    background-color: #0279e3;
-    border-color: #0279e3;
+    background-color: var(--main--color);
+    border-color: var(--main--color);
 }
 
 .btn {
@@ -740,7 +742,7 @@ font-size: 11px;
     transition: 1s;
 }
 #back-top a:hover {
-    background: #0279e3;
+    background: var(--main--color);
 }
 /* arrow icon (span tag) */
 #back-top i {
@@ -768,9 +770,9 @@ and (max-width : 480px) {
 
 
 .headshot {
-  width: 40%;
-  border: 1px solid white;
-  border-radius: 70%;
+  width: 300px;
+  border: 3px solid white;
+  border-radius: 50%;
 }
 
 .white {
@@ -936,7 +938,7 @@ and (max-width : 480px) {
 	border-bottom:solid 1px #aaa;
 }
 .exp-box h5{
-	border:solid 2px #0279e3;
+	border:solid 2px var(--main--color);
 	display:inline-block;
 	padding:6px 10px 5px 10px;
 	margin-bottom:20px;
@@ -1114,7 +1116,16 @@ animation: blink 0.7s infinite;
 }
 
 .exp-date span{
-  border: 2px solid #0279e3;
+  border: 2px solid var(--main--color);
   border-radius: 10%;
   padding: 4px;
+}
+
+/* .blueIt {
+  color: var(--main--color);
+
+} */
+
+:root {
+  --main--color: #0279e3;
 }
