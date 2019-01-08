@@ -89,7 +89,7 @@ section {
 --------------------*/
 
 .navbar-default {
-	background-color: #222;
+	background-color: #000000;
 	border-color: transparent
 }
 .navbar-default .navbar-brand {
@@ -98,20 +98,20 @@ section {
     padding: 0px;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
-	color: var(--main--color)
+	color: var(--nav--color)
 }
 .navbar-default .navbar-collapse {
 	border-color: rgba(255,255,255,.02)
 }
 .navbar-default .navbar-toggle {
-	background-color: var(--main--color);
-	border-color: var(--main--color)
+	background-color: var(--nav--color);
+	border-color: var(--nav--color)
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: var(--main--color)
+	background-color: var(--nav--color)
 }
 .navbar-default .nav li a {
 	font-family: "Roboto",sans-serif;
@@ -123,18 +123,18 @@ section {
   /* background-color: #3E3E3E; */
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-	color: var(--main--color);
+	color: var(--nav--color);
 	outline: 0
 }
 
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: var(--main--color)
+	background-color: var(--nav--color)
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
-	background-color: var(--main--color)
+	background-color: var(--nav--color)
 }
 
 @media (min-width:768px) {
@@ -170,7 +170,7 @@ section {
 --------------------*/
 
 header {
-    background-image: url(../images/5b.jpg);
+    background-image: url(../images/sbwavesedit.jpg);
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -708,7 +708,7 @@ font-size: 11px;
 
 .btn-xl {
     color: #fff;
-     background-color: #726FB9;
+    background-color: #726FB9;
     border-color: #726FB9;
     font-family: "Robot",sans-serif;
     text-transform: uppercase;
@@ -975,7 +975,8 @@ animation: blink 0.7s infinite;
 }
 
 .typed-strings p {
-	position: absolute;
+  position: absolute;
+  font-size: 48pt;
 }
 
 
@@ -1093,8 +1094,12 @@ animation: blink 0.7s infinite;
 .finalContact {
   margin-top: 15px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
+}
+
+.finalContact div {
+  margin: 0px 35px 10px 35px;
 }
 
 
@@ -1121,11 +1126,27 @@ animation: blink 0.7s infinite;
   padding: 4px;
 }
 
-/* .blueIt {
-  color: var(--main--color);
-
-} */
+.exp-date{
+   margin-bottom: 10px;
+}
 
 :root {
   --main--color: #0279e3;
+  --nav--color:#2e90e6;
 }
+
+ .firstContainer {
+background-color: rgba(92, 92, 92, 0.6);
+
+ }
+
+ .firstIcons a{
+  color:white;
+ }
+ .firstIcons a:hover{
+   color: var(--main--color)
+ }
+
+ .resumeButton:hover {
+  color: var(--main--color)
+ }
