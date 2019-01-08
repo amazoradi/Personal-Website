@@ -467,11 +467,14 @@ figure.effect-bubba:hover p {
 }
 
 .bg-img1 {
-    background-image: url(../images/azBackground.jpg);
+    background-image: url(../images/sbwavesedit.jpg);
     background-size: cover !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+     -ms-transform: skewY(180deg); /* IE 9 */
+  -webkit-transform: skewY(180deg); /* Safari 3-8 */
+  transform: skewY(180deg);
 }
 
 .light-bg {
