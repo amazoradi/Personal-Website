@@ -514,6 +514,12 @@ figure.effect-bubba:hover p {
     margin: 0;	
 }
 
+.counter-item-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*--------------------
 4.5. Partners Slider
 --------------------*/
