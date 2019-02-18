@@ -779,7 +779,7 @@ and (max-width : 480px) {
 
 
 .headshot {
-  width: 300px;
+  height: 300px;
   border: 3px solid white;
   border-radius: 50%;
 }
