@@ -1156,6 +1156,9 @@ background-color: rgba(92, 92, 92, 0.6);
    color: var(--main--color)
  }
 
- .resumeButton:hover {
-  color: var(--main--color)
+ .ResumeButton a {
+   color: white;
+ }
+  .ResumeButton a:hover {
+   text-decoration: none;
  }
